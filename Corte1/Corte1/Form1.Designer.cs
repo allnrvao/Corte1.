@@ -28,124 +28,122 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnMayorEdad = new System.Windows.Forms.Button();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.cmbCiudad = new System.Windows.Forms.ComboBox();
-            this.dtpFechaNac = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tbApellidos = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblNombres = new System.Windows.Forms.Label();
+            this.lblApellidos = new System.Windows.Forms.Label();
+            this.lblFechaNac = new System.Windows.Forms.Label();
+            this.lblCiudad = new System.Windows.Forms.Label();
             this.tbNombres = new System.Windows.Forms.TextBox();
+            this.tbApellidos = new System.Windows.Forms.TextBox();
+            this.dtpFechaNac = new System.Windows.Forms.DateTimePicker();
+            this.cmbCiudad = new System.Windows.Forms.ComboBox();
+            this.btnAgregarDatos = new System.Windows.Forms.Button();
+            this.btnMostrarEdad = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnMayorEdad
+            // lblNombres
             // 
-            this.btnMayorEdad.Location = new System.Drawing.Point(482, 323);
-            this.btnMayorEdad.Name = "btnMayorEdad";
-            this.btnMayorEdad.Size = new System.Drawing.Size(149, 69);
-            this.btnMayorEdad.TabIndex = 20;
-            this.btnMayorEdad.Text = "Mayor de Edad";
-            this.btnMayorEdad.UseVisualStyleBackColor = true;
+            this.lblNombres.AutoSize = true;
+            this.lblNombres.Location = new System.Drawing.Point(52, 66);
+            this.lblNombres.Name = "lblNombres";
+            this.lblNombres.Size = new System.Drawing.Size(97, 25);
+            this.lblNombres.TabIndex = 0;
+            this.lblNombres.Text = "Nombres:";
             // 
-            // btnAgregar
+            // lblApellidos
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(226, 323);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(149, 69);
-            this.btnAgregar.TabIndex = 19;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.lblApellidos.AutoSize = true;
+            this.lblApellidos.Location = new System.Drawing.Point(52, 131);
+            this.lblApellidos.Name = "lblApellidos";
+            this.lblApellidos.Size = new System.Drawing.Size(98, 25);
+            this.lblApellidos.TabIndex = 1;
+            this.lblApellidos.Text = "Apellidos:";
             // 
-            // label4
+            // lblFechaNac
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(142, 253);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 20);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "Ciudad:";
+            this.lblFechaNac.AutoSize = true;
+            this.lblFechaNac.Location = new System.Drawing.Point(52, 187);
+            this.lblFechaNac.Name = "lblFechaNac";
+            this.lblFechaNac.Size = new System.Drawing.Size(199, 25);
+            this.lblFechaNac.TabIndex = 2;
+            this.lblFechaNac.Text = "Fecha de nacimiento:";
+            // 
+            // lblCiudad
+            // 
+            this.lblCiudad.AutoSize = true;
+            this.lblCiudad.Location = new System.Drawing.Point(52, 251);
+            this.lblCiudad.Name = "lblCiudad";
+            this.lblCiudad.Size = new System.Drawing.Size(81, 25);
+            this.lblCiudad.TabIndex = 3;
+            this.lblCiudad.Text = "Ciudad:";
+            // 
+            // tbNombres
+            // 
+            this.tbNombres.Location = new System.Drawing.Point(155, 66);
+            this.tbNombres.Name = "tbNombres";
+            this.tbNombres.Size = new System.Drawing.Size(152, 30);
+            this.tbNombres.TabIndex = 4;
+            this.tbNombres.TextChanged += new System.EventHandler(this.tbNombres_TextChanged);
+            // 
+            // tbApellidos
+            // 
+            this.tbApellidos.Location = new System.Drawing.Point(156, 128);
+            this.tbApellidos.Name = "tbApellidos";
+            this.tbApellidos.Size = new System.Drawing.Size(152, 30);
+            this.tbApellidos.TabIndex = 5;
+            // 
+            // dtpFechaNac
+            // 
+            this.dtpFechaNac.Location = new System.Drawing.Point(257, 182);
+            this.dtpFechaNac.Name = "dtpFechaNac";
+            this.dtpFechaNac.Size = new System.Drawing.Size(352, 30);
+            this.dtpFechaNac.TabIndex = 6;
             // 
             // cmbCiudad
             // 
             this.cmbCiudad.FormattingEnabled = true;
-            this.cmbCiudad.Items.AddRange(new object[] {
-            "Managua",
-            "Masaya",
-            "Granada",
-            "Rivas",
-            "Esteli"});
-            this.cmbCiudad.Location = new System.Drawing.Point(226, 253);
+            this.cmbCiudad.Location = new System.Drawing.Point(139, 248);
             this.cmbCiudad.Name = "cmbCiudad";
-            this.cmbCiudad.Size = new System.Drawing.Size(121, 28);
-            this.cmbCiudad.TabIndex = 17;
+            this.cmbCiudad.Size = new System.Drawing.Size(169, 33);
+            this.cmbCiudad.TabIndex = 7;
             // 
-            // dtpFechaNac
+            // btnAgregarDatos
             // 
-            this.dtpFechaNac.Location = new System.Drawing.Point(311, 171);
-            this.dtpFechaNac.Name = "dtpFechaNac";
-            this.dtpFechaNac.Size = new System.Drawing.Size(347, 26);
-            this.dtpFechaNac.TabIndex = 16;
+            this.btnAgregarDatos.Location = new System.Drawing.Point(762, 66);
+            this.btnAgregarDatos.Name = "btnAgregarDatos";
+            this.btnAgregarDatos.Size = new System.Drawing.Size(132, 70);
+            this.btnAgregarDatos.TabIndex = 8;
+            this.btnAgregarDatos.Text = "Agregar Datos";
+            this.btnAgregarDatos.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // btnMostrarEdad
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(142, 176);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(163, 20);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Fecha de Nacimiento:";
-            // 
-            // tbApellidos
-            // 
-            this.tbApellidos.Location = new System.Drawing.Point(226, 114);
-            this.tbApellidos.Name = "tbApellidos";
-            this.tbApellidos.Size = new System.Drawing.Size(190, 26);
-            this.tbApellidos.TabIndex = 14;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(143, 114);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 20);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Apellidos:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(143, 59);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 20);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Nombres:";
-            // 
-            // tbNombres
-            // 
-            this.tbNombres.Location = new System.Drawing.Point(226, 59);
-            this.tbNombres.Name = "tbNombres";
-            this.tbNombres.Size = new System.Drawing.Size(190, 26);
-            this.tbNombres.TabIndex = 11;
+            this.btnMostrarEdad.Location = new System.Drawing.Point(762, 206);
+            this.btnMostrarEdad.Name = "btnMostrarEdad";
+            this.btnMostrarEdad.Size = new System.Drawing.Size(132, 70);
+            this.btnMostrarEdad.TabIndex = 9;
+            this.btnMostrarEdad.Text = "Mostrar Edad";
+            this.btnMostrarEdad.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnMayorEdad);
-            this.Controls.Add(this.btnAgregar);
-            this.Controls.Add(this.label4);
+            this.ClientSize = new System.Drawing.Size(1200, 703);
+            this.Controls.Add(this.btnMostrarEdad);
+            this.Controls.Add(this.btnAgregarDatos);
             this.Controls.Add(this.cmbCiudad);
             this.Controls.Add(this.dtpFechaNac);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.tbApellidos);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.tbNombres);
+            this.Controls.Add(this.lblCiudad);
+            this.Controls.Add(this.lblFechaNac);
+            this.Controls.Add(this.lblApellidos);
+            this.Controls.Add(this.lblNombres);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Registro Edades - DAAM";
+            this.Load += new System.EventHandler(this.Rsgistro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -153,16 +151,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnMayorEdad;
-        private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox cmbCiudad;
-        private System.Windows.Forms.DateTimePicker dtpFechaNac;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox tbApellidos;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblNombres;
+        private System.Windows.Forms.Label lblApellidos;
+        private System.Windows.Forms.Label lblFechaNac;
+        private System.Windows.Forms.Label lblCiudad;
         private System.Windows.Forms.TextBox tbNombres;
+        private System.Windows.Forms.TextBox tbApellidos;
+        private System.Windows.Forms.DateTimePicker dtpFechaNac;
+        private System.Windows.Forms.ComboBox cmbCiudad;
+        private System.Windows.Forms.Button btnAgregarDatos;
+        private System.Windows.Forms.Button btnMostrarEdad;
     }
 }
-

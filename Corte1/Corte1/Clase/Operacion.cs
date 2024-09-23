@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Corte1.Clases
+namespace Corte1.models
 {
-    internal class Registro
+    internal class Operacion
     {
+
     }
 }
