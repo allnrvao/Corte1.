@@ -3,3 +3,13 @@ C:\Users\diede\Desktop\Metodología\Proyectos C#\Corte 1\Corte1\Corte1\obj\Debug
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Corte 1\Corte1\Corte1\obj\Debug\Corte1.Properties.Resources.resources
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Corte 1\Corte1\Corte1\obj\Debug\Corte1.csproj.GenerateResource.cache
 C:\Users\diede\Desktop\Metodología\Proyectos C#\Corte 1\Corte1\Corte1\obj\Debug\Corte1.csproj.CoreCompileInputs.cache
+C:\Users\jpnic\OneDrive\Desktop\Examen 1 de metodologia\Corte1\Corte1\obj\Debug\Corte1.csproj.AssemblyReference.cache
+C:\Users\jpnic\OneDrive\Desktop\Examen 1 de metodologia\Corte1\Corte1\obj\Debug\Corte1.Properties.Resources.resources
+C:\Users\jpnic\OneDrive\Desktop\Examen 1 de metodologia\Corte1\Corte1\obj\Debug\Corte1.csproj.GenerateResource.cache
+C:\Users\jpnic\OneDrive\Desktop\Examen 1 de metodologia\Corte1\Corte1\obj\Debug\Corte1.csproj.CoreCompileInputs.cache
+C:\Users\jpnic\OneDrive\Desktop\Examen 1 de metodologia\Corte1\Corte1\bin\Debug\Corte1.exe.config
+C:\Users\jpnic\OneDrive\Desktop\Examen 1 de metodologia\Corte1\Corte1\bin\Debug\Corte1.exe
+C:\Users\jpnic\OneDrive\Desktop\Examen 1 de metodologia\Corte1\Corte1\bin\Debug\Corte1.pdb
+C:\Users\jpnic\OneDrive\Desktop\Examen 1 de metodologia\Corte1\Corte1\obj\Debug\Corte1.RegistroEdadesARVAO.resources
+C:\Users\jpnic\OneDrive\Desktop\Examen 1 de metodologia\Corte1\Corte1\obj\Debug\Corte1.exe
+C:\Users\jpnic\OneDrive\Desktop\Examen 1 de metodologia\Corte1\Corte1\obj\Debug\Corte1.pdb

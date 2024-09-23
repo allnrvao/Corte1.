@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Corte1
 {
-    public partial class Form1 : Form
+    public partial class RegistroEdadesARVAO : Form
     {
         private List<Persona> personas;
 
-        public Form1()
+        public RegistroEdadesARVAO()
         {
             InitializeComponent();
             personas = new List<Persona>();
@@ -22,42 +22,15 @@ namespace Corte1
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            string nombres = tbNombres.Text;
-            string apellidos = tbApellidos.Text;
-            DateTime fechaNacimiento = dtpFechaNac.Value;
-            string ciudad = cmbCiudad.SelectedItem.ToString();
 
-            Persona persona = new Persona(nombres, apellidos, fechaNacimiento, ciudad);
-            personas.Add(persona);
-
-            tbNombres.Clear();
-            tbApellidos.Clear();
-            dtpFechaNac.Value = DateTime.Now;
-            cmbCiudad.SelectedIndex = -1;
         }
 
-        private void btnMostrarEdad_Click(object sender, EventArgs e)
+        private void tbNombres_TextChanged(object sender, EventArgs e)
         {
-            if (personas.Count > 0)
-            {
-                Persona ultimaPersona = personas[personas.Count - 1];
-                int edad = CalcularEdad(ultimaPersona.FechaNacimiento);
-
-                MessageBox.Show($"La edad de {ultimaPersona.Nombres} {ultimaPersona.Apellidos} es {edad} años.", "Edad", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                if (edad >= 18)
-                {
-                    MessageBox.Show("Es mayor de edad.", "Mayor de Edad", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Es menor de edad.", "Menor de Edad", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-            }
-            else
-            {
-                MessageBox.Show("No hay personas registradas.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            
+        }
+        private void Registro_Load(object sender, EventArgs e)
+        {
         }
 
         private int CalcularEdad(DateTime fechaNacimiento)
@@ -71,6 +44,44 @@ namespace Corte1
             }
 
             return edad;
+        }
+
+        private void btnMostrarEdad_Click(object sender, EventArgs e)
+        {
+            if (personas.Count > 0)
+            {
+                Persona ultimaPersona = personas[personas.Count - 1];
+                int edad = CalcularEdad(ultimaPersona.FechaNacimiento);
+
+                if (edad >= 18)
+                {
+                    MessageBox.Show($"{lblNombres}Es mayor de edad.", "Mayor de Edad", MessageBoxButtons.OK);
+                }
+                else
+                {
+                    MessageBox.Show($"{lblNombres} menor de edad.", "Menor de Edad", MessageBoxButtons.OK);
+                }
+            }
+            else
+            {
+                MessageBox.Show("No hay personas registradas.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnAgregarDatos_Click(object sender, EventArgs e)
+        {
+            string nombres = tbNombres.Text;
+            string apellidos = tbApellidos.Text;
+            DateTime fechaNacimiento = dtpFechaNac.Value;
+            string ciudad = cmbCiudad.SelectedItem.ToString();
+
+            Persona persona = new Persona(nombres, apellidos, fechaNacimiento, ciudad);
+            personas.Add(persona);
+
+            tbNombres.Clear();
+            tbApellidos.Clear();
+            dtpFechaNac.Value = DateTime.Now;
+            cmbCiudad.SelectedIndex = -1;
         }
     }
 

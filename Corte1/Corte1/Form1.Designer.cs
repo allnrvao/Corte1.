@@ -1,6 +1,6 @@
 ﻿namespace Corte1
 {
-    partial class Form1
+    partial class RegistroEdadesARVAO
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -45,90 +45,102 @@
             this.lblNombres.AutoSize = true;
             this.lblNombres.Location = new System.Drawing.Point(52, 66);
             this.lblNombres.Name = "lblNombres";
-            this.lblNombres.Size = new System.Drawing.Size(97, 25);
+            this.lblNombres.Size = new System.Drawing.Size(119, 29);
             this.lblNombres.TabIndex = 0;
             this.lblNombres.Text = "Nombres:";
             // 
             // lblApellidos
             // 
             this.lblApellidos.AutoSize = true;
-            this.lblApellidos.Location = new System.Drawing.Point(52, 131);
+            this.lblApellidos.Location = new System.Drawing.Point(392, 69);
             this.lblApellidos.Name = "lblApellidos";
-            this.lblApellidos.Size = new System.Drawing.Size(98, 25);
+            this.lblApellidos.Size = new System.Drawing.Size(120, 29);
             this.lblApellidos.TabIndex = 1;
             this.lblApellidos.Text = "Apellidos:";
             // 
             // lblFechaNac
             // 
             this.lblFechaNac.AutoSize = true;
-            this.lblFechaNac.Location = new System.Drawing.Point(52, 187);
+            this.lblFechaNac.Location = new System.Drawing.Point(52, 159);
             this.lblFechaNac.Name = "lblFechaNac";
-            this.lblFechaNac.Size = new System.Drawing.Size(199, 25);
+            this.lblFechaNac.Size = new System.Drawing.Size(243, 29);
             this.lblFechaNac.TabIndex = 2;
             this.lblFechaNac.Text = "Fecha de nacimiento:";
             // 
             // lblCiudad
             // 
             this.lblCiudad.AutoSize = true;
-            this.lblCiudad.Location = new System.Drawing.Point(52, 251);
+            this.lblCiudad.Location = new System.Drawing.Point(52, 240);
             this.lblCiudad.Name = "lblCiudad";
-            this.lblCiudad.Size = new System.Drawing.Size(81, 25);
+            this.lblCiudad.Size = new System.Drawing.Size(96, 29);
             this.lblCiudad.TabIndex = 3;
             this.lblCiudad.Text = "Ciudad:";
             // 
             // tbNombres
             // 
-            this.tbNombres.Location = new System.Drawing.Point(155, 66);
+            this.tbNombres.Location = new System.Drawing.Point(195, 63);
             this.tbNombres.Name = "tbNombres";
-            this.tbNombres.Size = new System.Drawing.Size(152, 30);
+            this.tbNombres.Size = new System.Drawing.Size(152, 35);
             this.tbNombres.TabIndex = 4;
             this.tbNombres.TextChanged += new System.EventHandler(this.tbNombres_TextChanged);
             // 
             // tbApellidos
             // 
-            this.tbApellidos.Location = new System.Drawing.Point(156, 128);
+            this.tbApellidos.Location = new System.Drawing.Point(518, 69);
             this.tbApellidos.Name = "tbApellidos";
-            this.tbApellidos.Size = new System.Drawing.Size(152, 30);
+            this.tbApellidos.Size = new System.Drawing.Size(152, 35);
             this.tbApellidos.TabIndex = 5;
             // 
             // dtpFechaNac
             // 
-            this.dtpFechaNac.Location = new System.Drawing.Point(257, 182);
+            this.dtpFechaNac.Location = new System.Drawing.Point(301, 159);
             this.dtpFechaNac.Name = "dtpFechaNac";
-            this.dtpFechaNac.Size = new System.Drawing.Size(352, 30);
+            this.dtpFechaNac.Size = new System.Drawing.Size(352, 35);
             this.dtpFechaNac.TabIndex = 6;
             // 
             // cmbCiudad
             // 
             this.cmbCiudad.FormattingEnabled = true;
-            this.cmbCiudad.Location = new System.Drawing.Point(139, 248);
+            this.cmbCiudad.Items.AddRange(new object[] {
+            "Managua",
+            "",
+            "Granada",
+            "",
+            "León",
+            "",
+            "San Juan del Sur",
+            "",
+            "Masaya"});
+            this.cmbCiudad.Location = new System.Drawing.Point(168, 240);
             this.cmbCiudad.Name = "cmbCiudad";
-            this.cmbCiudad.Size = new System.Drawing.Size(169, 33);
+            this.cmbCiudad.Size = new System.Drawing.Size(169, 37);
             this.cmbCiudad.TabIndex = 7;
             // 
             // btnAgregarDatos
             // 
-            this.btnAgregarDatos.Location = new System.Drawing.Point(762, 66);
+            this.btnAgregarDatos.Location = new System.Drawing.Point(95, 318);
             this.btnAgregarDatos.Name = "btnAgregarDatos";
-            this.btnAgregarDatos.Size = new System.Drawing.Size(132, 70);
+            this.btnAgregarDatos.Size = new System.Drawing.Size(200, 70);
             this.btnAgregarDatos.TabIndex = 8;
             this.btnAgregarDatos.Text = "Agregar Datos";
             this.btnAgregarDatos.UseVisualStyleBackColor = true;
+            this.btnAgregarDatos.Click += new System.EventHandler(this.btnAgregarDatos_Click);
             // 
             // btnMostrarEdad
             // 
-            this.btnMostrarEdad.Location = new System.Drawing.Point(762, 206);
+            this.btnMostrarEdad.Location = new System.Drawing.Point(346, 318);
             this.btnMostrarEdad.Name = "btnMostrarEdad";
-            this.btnMostrarEdad.Size = new System.Drawing.Size(132, 70);
+            this.btnMostrarEdad.Size = new System.Drawing.Size(236, 70);
             this.btnMostrarEdad.TabIndex = 9;
-            this.btnMostrarEdad.Text = "Mostrar Edad";
+            this.btnMostrarEdad.Text = "Ver";
             this.btnMostrarEdad.UseVisualStyleBackColor = true;
+            this.btnMostrarEdad.Click += new System.EventHandler(this.btnMostrarEdad_Click);
             // 
-            // Form1
+            // RegistroEdadesARVAO
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 703);
+            this.ClientSize = new System.Drawing.Size(689, 418);
             this.Controls.Add(this.btnMostrarEdad);
             this.Controls.Add(this.btnAgregarDatos);
             this.Controls.Add(this.cmbCiudad);
@@ -141,9 +153,9 @@
             this.Controls.Add(this.lblNombres);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
-            this.Text = "Registro Edades - DAAM";
-            this.Load += new System.EventHandler(this.Rsgistro_Load);
+            this.Name = "RegistroEdadesARVAO";
+            this.Text = "Registro Edades - ARVAO";
+            this.Load += new System.EventHandler(this.Registro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

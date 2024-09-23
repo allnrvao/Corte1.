@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|c:\\users\\jpnic\\onedrive\\desktop\\examen 1 de metodologia\\corte1\\corte1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|c:\\users\\jpnic\\onedrive\\desktop\\examen 1 de metodologia\\corte1\\corte1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|solutionrelative:corte1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\corte1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|solutionrelative:corte1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|c:\\users\\jpnic\\onedrive\\desktop\\examen 1 de metodologia\\corte1\\corte1\\clase\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\corte1\\clase\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|solutionrelative:corte1\\clase\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|c:\\users\\jpnic\\onedrive\\desktop\\examen 1 de metodologia\\corte1\\corte1\\clase\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|solutionrelative:corte1\\clase\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|c:\\users\\jpnic\\onedrive\\desktop\\examen 1 de metodologia\\corte1\\corte1\\clase\\operacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|solutionrelative:corte1\\clase\\operacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|c:\\users\\jpnic\\onedrive\\desktop\\examen 1 de metodologia\\corte1\\corte1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\corte1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|solutionrelative:corte1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\corte1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|solutionrelative:corte1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\corte1\\clase\\operacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D037CC30-26F1-4CD8-A7FD-202C97066F90}|Corte1\\Corte1.csproj|solutionrelative:corte1\\clase\\operacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,46 +42,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\Corte1\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Corte1\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\Corte1\\Form1.Designer.cs",
               "RelativeToolTip": "Corte1\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAqwJEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T15:41:33.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Operacion.cs",
               "DocumentMoniker": "C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\Corte1\\Clase\\Operacion.cs",
               "RelativeDocumentMoniker": "Corte1\\Clase\\Operacion.cs",
               "ToolTip": "C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\Corte1\\Clase\\Operacion.cs",
               "RelativeToolTip": "Corte1\\Clase\\Operacion.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T14:53:34.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T14:53:34.097Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Registro.cs",
-              "DocumentMoniker": "C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\Corte1\\Clase\\Registro.cs",
-              "RelativeDocumentMoniker": "Corte1\\Clase\\Registro.cs",
-              "ToolTip": "C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\Corte1\\Clase\\Registro.cs",
-              "RelativeToolTip": "Corte1\\Clase\\Registro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T14:49:11.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\Corte1\\Clase\\Persona.cs",
               "RelativeDocumentMoniker": "Corte1\\Clase\\Persona.cs",
@@ -98,20 +80,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\Corte1\\Form1.cs",
               "RelativeDocumentMoniker": "Corte1\\Form1.cs",
               "ToolTip": "C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\Corte1\\Form1.cs",
               "RelativeToolTip": "Corte1\\Form1.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwCQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAmwEYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T14:11:58.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jpnic\\OneDrive\\Desktop\\Examen 1 de metodologia\\Corte1\\Corte1\\Form1.cs",
               "RelativeDocumentMoniker": "Corte1\\Form1.cs",
